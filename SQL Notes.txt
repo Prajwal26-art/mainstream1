@@ -1,0 +1,58 @@
+what is SQL
+SQL Structured Query Language - It is a language used to store, retrieve, manage and manipulate data in databases.
+Main SQL commands - SELECT - Retrieve data, INSERT - Add data, UPDATE - Modify Data, DELETE - Remove data, CREATE - Create database/table, ALTER - Modify table structure, DROP - Delete table/database
+
+SQL:- It is commonly used with databases such as MySQL, PostgreSQL, Oracle, Microsoft SQL Server, and SQLite.
+
+Application:- It is the solution for human day-to-day life challenges, or a software program designed to help users perform a specific task on a computer, mobile, or us
+For Ex- WhatsApp for messaging, Google Chrome for browsing, MS Word for writing documents.
+
+It types are :-
+1) Desktop Application- Software that runs on a computer/laptop. Ex- MS Word, VLC Media Player, Photoshop.
+2) Mobile Application - Which executes on Mobile phones, ex- WhatsApp, Instagram, YouTube.
+3) Web Application - Which is execute with the help of internet on web-browser anytime, anywhere on from any device, ex- Gmail, Google Docs, Online Banking, etc.
+4) Enterprise Application - It is used for created a particular organisation, such as Banking or finance institutes.
+5) Embedded Application - It is consist of Hardware and Software is known as Embedded Application, ex- Alexa, Robot, Microwave, etc.
+
+Programming Language :- It is an language where we human can give instructions to a computer and tell  it what to do, or is a way to communicate with a computer or machine and create software/applications.
+
+It has two types :-
+I] High-Level Programming Language :- It is easy to understand, learn, read and write for Humans; it is machine-independent it's ex's are Python, Java, PHP, etc.
+II] Low-Level Programming Language :- It is closer to the computer's hardware and difficult for humans to understand; it is also difficult to write and learn, and it is machine-dependent language, it's ex's are C, C++, Assembly and Machine language, etc.
+
+Data is a collection of information
+
+D.B.M.S  data us stored in file and folder - drawbacks of dbms - (Hierarchical Structure), security is
+D.B.M.S is stored in table format (tuples) rows, (Attributes) - columns
+
+CR
+
+SELECT with not in using where syntax
+#select *from tablename where not in (val1,val2);
+select *from customer where address not in('Mumbai','Pune');
+
+SELECT WITH limit 
+It is used to display a specific number of records, rather than displaying the all record.
+#syntax=select *from tablename limit value;
+select *from product limit 2;
+
+
+#select *from tablename limit and offset - it is used to skip the number/value records and print the specific records.
+#selecr *from tablename limit value offset value;
+select *from product limit 2 offset 2;
+
+SELECT with distinct is used to print the unique values of particular column.
+#syntax-select distinct(column) from tablename;
+INSERT INTO employee VALUES
+(101, 'Amit', 'amit@yahoo.com 'IT', 'Mumbai', '2024-01-15', '9876543210'),
+(102, 'Rahul', 'rahul@gmail.com'Sales', 'Delhi', '2023-06-10', '9876543211');
+select distinct(cname) from customer;
+
+SELECT WITH Order by clause - it is used to sorter a clause in ascending or descending order according to specific column.
+#select *from tablename order by columnname asc or desc;
+SELECT *FROM product order by pname asc;
+SELECT *FROM product order by price desc;
+SELECT *FROM
+
+
+
